@@ -32,6 +32,10 @@ h1 {
 	margin-top: 6px;
 }
 /* MAIN-LAYOUT */
+.container {
+	width: 1000px;
+	background-color: orangered;
+}
 
 .fact-form {
 	background-color: #44403c;
