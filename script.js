@@ -1,4 +1,4 @@
-const btn = document.querySelector('.btn-open');
+const btn = document.querySelector('.btn-open'); //@todo finish teh course
 btn.addEventListener('click', () => {
 	const form = document.querySelector('.fact-form');
 	if (form.classList.contains('hidden')) {
@@ -8,15 +8,3 @@ btn.addEventListener('click', () => {
 	}
 	form.classList.toggle('hidden');
 });
-
-function calcFactAge(year) {
-	const date = new Date().getFullYear();
-	console.log('The age of the fact is ', date - year);
-	return date - year;
-}
-let votesInteresting = 23;
-let votesMindBlowing = 20;
-
-const message = votesInteresting > votesMindBlowing ? 'A' : 'B';
-
-console.log(message);
