@@ -209,6 +209,10 @@ li {
 		grid-template-columns: 1fr;
 	}
 }
+.hidden {
+	display: none;
+}
+/* fEQyj@B6RQ5WXWS */
 
 /* .test {
 	background-color: black;
