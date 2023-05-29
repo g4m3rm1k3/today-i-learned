@@ -1,5 +1,3 @@
-console.log('Hello World!');
-
 const btn = document.querySelector('.btn-open');
 btn.addEventListener('click', () => {
 	const form = document.querySelector('.fact-form');
@@ -16,6 +14,9 @@ function calcFactAge(year) {
 	console.log('The age of the fact is ', date - year);
 	return date - year;
 }
+let votesInteresting = 23;
+let votesMindBlowing = 20;
 
-const age1 = calcFactAge(2015);
-console.log(age1);
+const message = votesInteresting > votesMindBlowing ? 'A' : 'B';
+
+console.log(message);
