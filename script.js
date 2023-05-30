@@ -55,7 +55,7 @@ const allCategories = CATEGORIES.map((x) => x.name);
 console.log(allCategories);
 CATEGORIES.forEach((cat) => {
 	const listItem = document.createElement('li');
-	const lastButton = document.querySelector('.category');
+	const lastButton = document.querySelector('.category:last-child');
 	console.log(lastButton);
 	listItem.innerHTML = `<button class="btn btn-category" style="background-color: ${cat.color}; margin-bottom: 16px">${cat.name}</button>`;
 	lastButton.appendChild(listItem);
