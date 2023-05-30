@@ -76,7 +76,12 @@
 				<aside>
 					<ul>
 						<li class="category">
-							<button class="btn btn-all-categories">All</button>
+							<button
+								class="btn btn-all-categories"
+								onclick="defFilter('')"
+							>
+								All
+							</button>
 						</li>
 						<!-- <li class="category">
 							<button
@@ -97,7 +102,7 @@
 					</ul>
 				</aside>
 				<section>
-					<ul>
+					<ul class="facts-list">
 						<li class="fact">
 							<p>
 								React is being developed by Meta (formerly facebook)
@@ -106,14 +111,14 @@
 									rel="noopener"
 									href="https://opensource.fb.com/"
 									target="_blank"
-									>(Source)</a
-								>
+									>(Source)
+								</a>
 							</p>
 							<span
 								class="tag"
 								style="background-color: #3b82f6"
-								>Technology</span
-							>
+								>Technology
+							</span>
 							<div class="vote-buttons">
 								<button>👍 9</button>
 								<button>🤯 2</button>
@@ -148,6 +153,7 @@
 				</section>
 			</main>
 		</div>
+		<script src="data.js"></script>
 		<script src="script.js"></script>
 	</body>
 </html>
